@@ -1,0 +1,9 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  faren: 9.99
+  cel: 9.99
+
+two:
+  faren: 9.99
+  cel: 9.99

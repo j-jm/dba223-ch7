@@ -1,0 +1,8 @@
+<p id="notice"><%= notice %></p>
+
+  <% @farenheit = (@temp.faren).round(1) %>
+  <% @celsius = ((@temp.faren - 32) * (0.5555555556)).round(1) %>
+
+<p><b><%= @farenheit %></b> degrees Farenheit is equal to <b><%= @celsius %></b> degrees Celsius.</p>
+
+<%= link_to 'New Temp', new_temp_path %>
